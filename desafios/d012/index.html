@@ -5,55 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cordel Moderno</title>
     <style>
-        * {
-            margin: 0px;
-            padding: 0px;
-            font-size: 1em;
-        }
-        header {
-            background-color: black;
-            color: white;
-            text-align: center;
-        }
-
-        body {
-            min-height: 100vh;
-            background-color: darkgray;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-        }
-
-        header > h1 {
-            padding-top: 50px;
-            font-variant: small-caps;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            font-size: 10vw;
-        }
-
-        header > p {
-            padding-bottom: 50px;
-        }
-
-        p{
-            display: block;
-            margin-block-start: 1em;
-            margin-block-end: 1em;
-            margin-inline-start: 0px;
-            margin-inline-end: 0px;
-            unicode-bidi: isolate;
-        }
-
-        h1 {
-            display: block;
-            margin-block-start: 0.67em;
-            margin-block-end: 0.67em;
-            margin-inline-start: 0px;
-            margin-inline-end: 0px;
-            font-weight: bold;
-            unicode-bidi: isolate;
-        }
 
         section#img01 {
-            background-image: url('imagens/background001.jpg');
+            background: url('imagens/background001.jpg');
+            color: white;
+            background-repeat: no-repeat;
+            background-position: right center;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        
+        section#img02 {
+            background: url('imagens/background002.jpg');
+            color: white;
             background-repeat: no-repeat;
             background-position: right center;
             background-size: cover;
@@ -64,9 +28,7 @@
 <body>
     <header>
         <h1>Cordel Moderno</h1>
-        <p id="h">Por 
-            <a href="https://www.recantodasletras.com.br/poesias/3186743" target="_blank">Milton Duarte</a>
-        </p>
+        <p>Por <a href="https://www.recantodasletras.com.br/poesias/3186743" target="_blank">Milton Duarte</a></p>
     </header>
     <section class="normal">
         <p>
@@ -148,7 +110,7 @@
     </section>
 
     <footer>
-        <p>Site criado por Joao Kersten</p>
+        <p>Site criado por <a href="https://jvitorlk.github.io/" target="_blank">Joao Vitor</a></p>
     </footer>
     
 </body>
